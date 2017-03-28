@@ -14,7 +14,7 @@ Feature: Automation for PAbout Us Page to reduce manual effort of manual testing
 
     Then I should see CSS "#block-mainpagecontent" in the "page_class" region
     Then I should see CSS ".resource-count-view>div>div>div:nth-child(1)" in the "about_us_page_resource_block" region
-    Then I should see CSS ".resource-count-view>div>div>div:nth-child(2)" in the "about_us_page_resource_block" region
+    #Then I should see CSS ".resource-count-view>div>div>div:nth-child(2)" in the "about_us_page_resource_block" region
     Then I should see CSS ".row>.col-3:nth-child(1)" in the "about_us_page_resource_block_row" region
     #Then I should see CSS ".row>.col-3:nth-child(2)" in the "about_us_page_resource_block_row" region
     Then I should see CSS ".row>.col-3:nth-child(3)" in the "about_us_page_resource_block_row" region
